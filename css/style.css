@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: inherit;
+  color: inherit;
+  -webkit-font-smoothing: antialiased;
+  text-decoration: none; }
+
+.psevdo:before {
+  content: "___";
+  color: #7a7a7a;
+  font-weight: 700;
+  font-size: 34px; }
+
+.navbar-toggle {
+  border: 1px solid black; }
+  .navbar-toggle .icon-bar {
+    background-color: black; }
+
+.navbar-right li a {
+  color: #4d4d4d;
+  font-family: "Asap", sans-serif;
+  font-weight: 700;
+  font-size: 16px; }
+.navbar-right li a:hover {
+  border-bottom: #878787 solid 2px;
+  background-color: transparent; }
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 2; }
+
+.head_home {
+  background-image: url("../images/head_back_02.png");
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  min-height: 747px; }
+  .head_home h1 {
+    font-size: 80px;
+    font-family: "Asap", sans-serif;
+    font-weight: 700;
+    color: #4d4d4d;
+    padding-top: 260px; }
+  .head_home h3 {
+    font-size: 22px;
+    color: #4d4d4d;
+    padding-bottom: 28px; }
+  .head_home a:first-of-type {
+    font-family: "Asap", sans-serif;
+    font-weight: 700;
+    background-color: #ffffff;
+    font-size: 16px;
+    color: #4d4d4d;
+    list-style-type: none;
+    text-align: center;
+    padding: 20px;
+    border-radius: 2px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+    margin-right: 10px;
+    margin-left: 15px; }
+  .head_home a:last-of-type {
+    font-family: "Asap", sans-serif;
+    font-weight: 700;
+    background-color: transparent;
+    font-size: 16px;
+    color: #4d4d4d;
+    list-style-type: none;
+    text-align: center;
+    padding: 19px;
+    border: #4d4d4d solid 1px;
+    border-radius: 2px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+    margin-left: 10px; }
+
+.sect1 {
+  padding-bottom: 125px;
+  margin-top: 110px; }
+  .sect1 div:first-of-type:before {
+    content: "___";
+    color: #7a7a7a;
+    font-weight: 700;
+    font-size: 34px; }
+  .sect1 h2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #717171;
+    font-family: "Asap", sans-serif;
+    font-weight: 700;
+    font-size: 46px; }
+  .sect1 p {
+    font-size: 16px;
+    font-family: "Asap", sans-serif;
+    font-weight: 500;
+    color: #4d4d4d; }
+  .sect1 a {
+    font-family: "Asap", sans-serif;
+    font-weight: 400;
+    background-color: transparent;
+    font-size: 16px;
+    color: #4d4d4d;
+    list-style-type: none;
+    text-align: center;
+    padding: 19px;
+    border: #4d4d4d solid 1px;
+    border-radius: 1px; }
+
+.sect2 {
+  background-color: #f6f6f6;
+  padding-bottom: 80px;
+  padding-top: 80px;
+  text-align: center;
+  border: none; }
+  .sect2 h3 {
+    font-family: "Asap", sans-serif;
+    font-weight: 500;
+    font-size: 24px; }
+  .sect2 h2 {
+    font-size: 46px;
+    color: #4d4d4d;
+    padding-bottom: 50px; }
+  .sect2 .costil {
+    height: 108px; }
+
+.sect3 {
+  padding-bottom: 80px;
+  padding-top: 80px;
+  text-align: center; }
+  .sect3 h2 {
+    font-size: 46px;
+    font-family: "Asap", sans-serif;
+    font-weight: 700;
+    color: #717171;
+    padding-bottom: 40px; }
+
+.sect4 {
+  background-color: #f6f6f6;
+  padding-bottom: 80px;
+  padding-top: 80px;
+  text-align: center; }
+  .sect4 h2 {
+    font-size: 46px;
+    font-family: "Asap", sans-serif;
+    font-weight: 700;
+    color: #767676;
+    padding-bottom: 40px; }
+  .sect4 .img_galer {
+    padding-bottom: 45px; }
+    .sect4 .img_galer img:nth-child(1), .sect4 .img_galer :nth-child(2), .sect4 .img_galer :nth-child(4), .sect4 .img_galer :nth-child(5) {
+      padding-right: 10px; }
+    .sect4 .img_galer img {
+      padding-top: 10px; }
+    .sect4 .img_galer img:hover {
+      box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2); }
+  .sect4 a {
+    font-family: "Asap", sans-serif;
+    font-weight: 700;
+    background-color: #ffffff;
+    font-size: 16px;
+    color: #4d4d4d;
+    list-style-type: none;
+    text-align: center;
+    padding: 20px;
+    border-radius: 1px; }
+
+.sect5 {
+  padding-bottom: 80px;
+  padding-top: 80px;
+  text-align: center; }
+  .sect5 h2 {
+    font-size: 46px;
+    font-family: "Asap", sans-serif;
+    font-weight: 700;
+    color: #4d4d4d;
+    padding-bottom: 40px; }
+  .sect5 .card {
+    max-width: 950px;
+    margin: auto;
+    border: black 1px solid; }
+    .sect5 .card img {
+      float: left; }
+
+/*# sourceMappingURL=style.css.map */
