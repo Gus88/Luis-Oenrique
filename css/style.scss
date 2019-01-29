@@ -12,6 +12,9 @@ $main_font_color: #4d4d4d;
 $bold_font: 700;
 $reg_font: 500;
 
+a:hover{
+  text-decoration: none;
+}
 .psevdo:before {
   content: "___";
   color: #7a7a7a;
@@ -40,14 +43,16 @@ $reg_font: 500;
     }
   }
 }
-
 header {
   position: fixed;
   width: 100%;
   top: 0;
   z-index: 2;
 }
-
+.row{
+  margin: 0px;
+  //без него появляется белая полоса в первом блоке справа
+}
 .head_home {
   background-image: url('../images/head_back_02.png');
   width: 100%;
@@ -59,14 +64,19 @@ header {
     font-family: $asap_font;
     font-weight: $bold_font;
     color: $main_font_color;
-    padding-top: 260px;
+    padding-top: 200px;
+    margin-bottom: 3px;
   }
   h3 {
     font-size: 22px;
-    color: $main_font_color;
-    padding-bottom: 28px;
+    color: #909090;
+    padding-bottom: 25px;
+    margin-top: 3px;
+    font-family: $asap_font;
+    font-weight: $reg_font;
   }
-  a:first-of-type {
+  a:hover {
+    position: relative;
     font-family: $asap_font;
     font-weight: $bold_font;
     background-color: #ffffff;
@@ -75,13 +85,12 @@ header {
     list-style-type: none;
     text-align: center;
     padding: 20px;
-    border-radius: 2px;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
-    margin-right: 10px;
-    margin-left: 15px;
-
+    border: none;
+    text-decoration: none;
+    box-shadow: 8px 8px 30px 0px rgba(0,0,0,0.25);
   }
-  a:last-of-type {
+  a {
+    position: relative;
     font-family: $asap_font;
     font-weight: $bold_font;
     background-color: transparent;
@@ -93,13 +102,18 @@ header {
     border: $main_font_color solid 1px;
     border-radius: 2px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
-    margin-left: 10px;
+    margin-left: 15px;
+    margin-right: 20px;
   }
 }
 
 .sect1 {
   padding-bottom: 125px;
   margin-top: 110px;
+  img{
+    padding-top: 30px;
+    width: 100%;
+  }
   div:first-of-type:before {
     content: "___";
     color: #7a7a7a;
@@ -119,19 +133,22 @@ header {
     font-family: $asap_font;
     font-weight: $reg_font;
     color: $main_font_color;
+    padding-bottom: 30px;
   }
 
   a {
     font-family: $asap_font;
-    font-weight: 400;
+    font-weight: $bold_font;
     background-color: transparent;
     font-size: 16px;
     color: $main_font_color;
     list-style-type: none;
     text-align: center;
-    padding: 19px;
+    padding: 18px 40px;
     border: $main_font_color solid 1px;
-    border-radius: 1px;
+    border-radius: 2px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+    margin-bottom: 30px;
   }
 }
 
@@ -139,6 +156,11 @@ header {
   background-color: #f6f6f6;
   padding-bottom: 80px;
   padding-top: 80px;
+  text-align: center;
+  border: none;
+  img{
+    padding-top: 25px;
+  }
   h3 {
     font-family: $asap_font;
     font-weight: $reg_font;
@@ -149,11 +171,9 @@ header {
     color: $main_font_color;
     padding-bottom: 50px;
   }
-
-  text-align: center;
-  border: none;
   .costil {
-    height: 108px;
+    height: 110px;
+    //костыль и в Африке костыль ) Без него вылетает блок)))
   }
 }
 
@@ -167,6 +187,10 @@ header {
     font-weight: $bold_font;
     color: #717171;
     padding-bottom: 40px;
+  }
+  img{
+    width: 100%;
+    padding-bottom: 100px;
   }
 }
 
@@ -183,15 +207,17 @@ header {
     padding-bottom: 40px;
   }
   .img_galer {
-    padding-bottom: 45px;
+    padding-bottom: 40px;
     img:nth-child(1),:nth-child(2),:nth-child(4),:nth-child(5) {
-      padding-right: 10px;
+      //padding-right: 15px;
     }
     img{
-      padding-top: 10px;
+      width: 33%;
+      margin-top: 10px;
+      text-align: center;
     }
     img:hover{
-      box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+      box-shadow: 8px 8px 30px 0px rgba(0,0,0,0.25);
     }
   }
   a {
@@ -204,6 +230,9 @@ header {
     text-align: center;
     padding: 20px;
     border-radius: 1px;
+  }
+  a:hover{
+    box-shadow: 8px 8px 30px 0px rgba(0,0,0,0.25);
   }
 }
 .sect5{
