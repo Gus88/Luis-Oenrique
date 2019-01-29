@@ -320,6 +320,19 @@ footer{
   background-size: cover;
   background-position: center center;
   min-height: 800px;
+  text-align: center;
+  .sect7{
+    padding-top: 140px;
+    .psevdo{
+      h2{
+        font-family: $asap_font;
+        font-size: 46px;
+        font-weight: $bold_font;
+        color: #f0f0f0;
+      }
+    }
+
+  }
 }
 
 //.head_home{
