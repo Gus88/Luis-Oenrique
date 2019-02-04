@@ -33,7 +33,9 @@ header {
   position: fixed;
   width: 100%;
   top: 0;
-  z-index: 2; }
+  z-index: 2;
+  background: rgba(226, 226, 226, 0.3);
+  min-height: 75px; }
 
 .row {
   margin: 0px; }
