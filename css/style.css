@@ -259,11 +259,52 @@ footer {
   min-height: 800px;
   text-align: center; }
   footer .sect7 {
-    padding-top: 140px; }
+    border-bottom: #ffffff 2px solid;
+    padding-top: 140px;
+    padding-bottom: 59px; }
     footer .sect7 .psevdo h2 {
       font-family: "Asap", sans-serif;
       font-size: 46px;
       font-weight: 700;
-      color: #f0f0f0; }
+      color: #f0f0f0;
+      padding-bottom: 55px; }
+    footer .sect7 div form textarea {
+      min-height: 205px;
+      padding-top: 15px;
+      font-size: 16px; }
+    footer .sect7 div form button {
+      margin-top: 30px;
+      padding: 15px 32px;
+      background-color: #ffffff;
+      color: #4d4d4d;
+      text-transform: uppercase;
+      font-family: "Asap", sans-serif;
+      font-weight: 600;
+      font-size: 16px; }
+  footer a i {
+    color: #4d4d4d;
+    font-size: 16px;
+    background-color: white;
+    height: 27px;
+    width: 27px;
+    text-align: center;
+    padding-top: 5px;
+    margin-right: 10px; }
+  footer a i:hover {
+    color: white;
+    background-color: #0084b4; }
+  footer .down {
+    padding-top: 20px; }
+    footer .down .col-sm-3.col-md-3 {
+      text-align: left;
+      padding: 0px; }
+    footer .down p {
+      font-size: 16px;
+      color: white;
+      font-family: 'Montserrat', sans-serif; }
+
+.form-control {
+  border-radius: 0px;
+  border: none; }
 
 /*# sourceMappingURL=style.css.map */
