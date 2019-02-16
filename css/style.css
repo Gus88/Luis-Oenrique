@@ -142,6 +142,7 @@ header {
   .sect2 h2 {
     font-size: 46px;
     color: #4d4d4d;
+    font-weight: 700;
     padding-bottom: 50px; }
   .sect2 .costil {
     height: 110px; }
@@ -154,7 +155,7 @@ header {
     font-size: 46px;
     font-family: "Asap", sans-serif;
     font-weight: 700;
-    color: #717171;
+    color: #4d4d4d;
     padding-bottom: 40px; }
   .sect3 img {
     width: 100%;
@@ -169,7 +170,7 @@ header {
     font-size: 46px;
     font-family: "Asap", sans-serif;
     font-weight: 700;
-    color: #767676;
+    color: #4d4d4d;
     padding-bottom: 40px; }
   .sect4 .img_galer {
     padding-bottom: 40px; }
@@ -297,7 +298,7 @@ footer {
     background-color: #0084b4; }
   footer .down {
     padding-top: 20px; }
-    footer .down .col-sm-3.col-md-3 {
+    footer .down .col-sm-12.col-md-4 {
       text-align: left;
       padding: 0px; }
     footer .down p {

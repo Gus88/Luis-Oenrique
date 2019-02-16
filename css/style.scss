@@ -38,6 +38,7 @@ a:hover {
       font-weight: $bold_font;
       font-size: 16px;
     }
+
     a:hover {
       border-bottom: #878787 solid 2px;
       background-color: transparent;
@@ -175,6 +176,7 @@ header {
   h2 {
     font-size: 46px;
     color: $main_font_color;
+    font-weight: $bold_font;
     padding-bottom: 50px;
   }
   .costil {
@@ -191,7 +193,7 @@ header {
     font-size: 46px;
     font-family: $asap_font;
     font-weight: $bold_font;
-    color: #717171;
+    color: $main_font_color;
     padding-bottom: 40px;
   }
   img {
@@ -209,7 +211,7 @@ header {
     font-size: 46px;
     font-family: $asap_font;
     font-weight: $bold_font;
-    color: #767676;
+    color: $main_font_color;
     padding-bottom: 40px;
   }
   .img_galer {
@@ -367,18 +369,18 @@ footer {
       padding-top: 5px;
       margin-right: 10px;
     }
-    i:hover{
+    i:hover {
       color: white;
       background-color: #0084b4;
     }
   }
-  .down{
+  .down {
     padding-top: 20px;
-    .col-sm-3.col-md-3{
+    .col-sm-12.col-md-4 {
       text-align: left;
       padding: 0px;
     }
-    p{
+    p {
       font-size: 16px;
       color: white;
       font-family: 'Montserrat', sans-serif;
@@ -391,29 +393,3 @@ footer {
   border: none;
 }
 
-//.head_home{
-//  background-image: url('../images/head_back_02.png');
-//  width: 100%;
-//  min-height: 747px;
-//  div{
-//    div.col-lg-5{
-//      a {
-//        color: #4d4d4d;
-//        font-family: $asap_font;
-//        font-weight: 600;
-//        font-size: 16px;
-//        padding-right: 15px;
-//        text-decoration: none;
-//        list-style-type: none;
-//        display: inline-block;
-//      }
-//      a:nth-child(1),a:nth-child(2),a:nth-child(3),a:nth-child(4){
-//        padding-right: 15px;
-//
-//      }
-//      a:hover{
-//        border-bottom: #878787 solid 2px;
-//      }
-//    }
-//  }
-//}
