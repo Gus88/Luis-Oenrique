@@ -88,6 +88,27 @@ header {
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
     margin-left: 15px;
     margin-right: 20px; }
+  @media screen and (max-device-width: 768px) {
+    .head_home h1 {
+      font-size: 75px; }
+    .head_home h3 {
+      font-size: 18px; }
+    .head_home a {
+      margin-top: 15px; } }
+  @media screen and (max-device-width: 560px) {
+    .head_home h1 {
+      font-size: 50px; }
+    .head_home h3 {
+      font-size: 14px; }
+    .head_home a {
+      margin-top: 10px; } }
+  @media screen and (max-device-width: 560px) {
+    .head_home h1 {
+      font-size: 35px; }
+    .head_home h3 {
+      font-size: 12px; }
+    .head_home a {
+      font-size: 12px; } }
 
 .sect1 {
   padding-bottom: 125px;
@@ -235,6 +256,21 @@ header {
         font-size: 16px;
         font-weight: 500;
         text-transform: uppercase; }
+      @media screen and (max-device-width: 600px) {
+        .sect5 .card .bio p {
+          font-size: 12px; }
+        .sect5 .card .bio h4 {
+          font-size: 18px; }
+        .sect5 .card .bio img {
+          max-width: 30%;
+          max-height: 30%; } }
+  @media screen and (max-device-width: 600px) {
+    .sect5 p {
+      font-size: 12px; }
+    .sect5 h4 {
+      font-size: 18px; }
+    .sect5 .card {
+      padding: 12px; } }
 
 .sect6 {
   text-align: center;
@@ -248,10 +284,13 @@ header {
   .sect6 img {
     max-height: 79px;
     max-width: 77px;
-    width: 70px; }
+    width: 100%; }
   .sect6 .row:nth-child(2) {
     font-size: 30px;
     font-weight: 700; }
+  @media screen and (max-device-width: 420px) {
+    .sect6 {
+      font-size: 14px; } }
 
 footer {
   margin-top: 150px;

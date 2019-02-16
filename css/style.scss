@@ -112,6 +112,39 @@ header {
     margin-left: 15px;
     margin-right: 20px;
   }
+  @media screen and (max-device-width: 768px) {
+    h1{
+      font-size: 75px;
+    }
+    h3{
+      font-size: 18px;
+    }
+    a{
+      margin-top: 15px;
+    }
+  }
+  @media screen and (max-device-width: 560px) {
+    h1{
+      font-size: 50px;
+    }
+    h3{
+      font-size: 14px;
+    }
+    a{
+      margin-top: 10px;
+    }
+  }
+  @media screen and (max-device-width: 560px) {
+    h1{
+      font-size: 35px;
+    }
+    h3{
+      font-size: 12px;
+    }
+    a{
+      font-size: 12px;
+    }
+  }
 }
 
 .sect1 {
@@ -290,8 +323,30 @@ header {
         font-size: 16px;
         font-weight: $reg_font;
         text-transform: uppercase;
-
       }
+      @media screen and (max-device-width: 600px) {
+        p {
+          font-size: 12px;
+        }
+        h4 {
+          font-size: 18px;
+        }
+        img {
+          max-width: 30%;
+          max-height: 30%;
+        }
+      }
+    }
+  }
+  @media screen and (max-device-width: 600px) {
+    p {
+      font-size: 12px;
+    }
+    h4 {
+      font-size: 18px;
+    }
+    .card {
+      padding: 12px;
     }
   }
 }
@@ -308,12 +363,14 @@ header {
   img {
     max-height: 79px;
     max-width: 77px;
-    width: 70px;
+    width: 100%;
   }
   .row:nth-child(2) {
     font-size: 30px;
     font-weight: $bold_font;
-
+  }
+  @media screen and (max-device-width: 420px) {
+    font-size: 14px;
   }
 }
 
